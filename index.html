@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="MusicPlayer1.css">
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+         <h1>MUSIC PLAYER</h1>
+        </div>
+        <div class="songslist">
+            <h2>List Of Songs</h2>
+        </div>
+        <div class="songslist">
+         <ul class="songs">
+            
+                <li>Song 1</li>
+                <li>Song 2</li>
+                <li>Song 3</li>
+                <li>Song 4</li>
+                <li>Song 5</li>
+
+                
+            </ul>
+         </div>
+         <audio  id="audio-player"  src="song1.mp3" ></audio>   
+
+
+         <div class="currentSong">
+            <p id="id1">Play the Song and Enjoy....
+            </p>
+         </div>
+
+         <div class="progressBar">
+            <div  id="progress" class="progress">
+            </div>
+         </div>
+         <div class="buttonctrl">
+            <button type="button" class="button" id="prev-btn">&lt;&lt;</button>
+            <button type="button" class="button" id="play-btn">&#9658;</button>
+            <button type="button" class="button" id="pause-btn">&#10074;&#10074;</button>
+            <button type="button" class="button" id="next-btn">&gt;&gt;</button>
+
+         </div>
+        </div>
+        <script src="Music_Player1.js"> </script>
+</body>
+</html>
